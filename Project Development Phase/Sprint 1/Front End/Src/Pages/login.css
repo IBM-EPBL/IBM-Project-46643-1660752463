@@ -1,0 +1,20 @@
+.main-container{
+    color: #fff;
+    font-family: var(--font-family);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.form-input{
+    padding: 5px;
+}
+.button-container{
+    padding: 5px;
+}
