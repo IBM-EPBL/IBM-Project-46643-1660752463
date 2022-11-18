@@ -1,0 +1,70 @@
+.login-block{
+    float:left;
+    width:100%;
+    padding-top: 150px;
+    color: whitesmoke;    
+}
+
+body{
+    background-image: url("../../assets/heartbg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    
+}
+
+.container{
+    background-color: rgba(41, 41, 41, 0.4);
+    border-radius: 10px; 
+    width: 30%; 
+    height: 40%;
+}
+.login-sec{
+    padding: 50px 30px; 
+    position:relative;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.login-sec h2{margin-bottom:30px; 
+    font-weight:800; 
+    font-size:30px; 
+    color: #e2e2e2;
+}
+.login-sec h2:after{
+    content:" "; 
+    width:100px; 
+    height:5px; 
+    background:#a0a0a0; 
+    display:block; 
+    margin-top:20px; 
+    border-radius:3px; 
+    margin-left:auto;
+    margin-right:auto
+}
+
+.btn-login{
+    background: #0093ee; 
+    color:rgb(255, 255, 255); 
+    font-weight:800;
+    margin-top: 30px;
+    /* margin-right: 155px; */
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+
+.btn-login:hover{
+    background-color: hwb(203 0% 30%);
+}
+
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+   
+}
